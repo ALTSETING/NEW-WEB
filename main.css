@@ -1624,5 +1624,59 @@ section.blockchain {
 }
 
 
+/* =====================================================
+   📱 MOBILE LOCK + NFT FIX — ALTSETING
+===================================================== */
+@media (max-width: 768px) {
+
+  /* ❌ Забороняємо горизонтальний скрол + зум */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    touch-action: pan-y;
+  }
+
+  /* === NFT GALLERY FIX === */
+  .gallery {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .gallery .card {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    transform: none !important;
+  }
+
+  .gallery .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* ❌ Забираємо hover-ефекти на мобілці */
+  .gallery .card:hover,
+  .gallery .card:hover img {
+    transform: none !important;
+    box-shadow: none;
+  }
+
+  /* === ДОДАТКОВИЙ КОНТРОЛЬ ВИЛІЗАННЯ === */
+  section,
+  .hero-section,
+  .cover,
+  .blockchain,
+  .miner-bot,
+  .wallet-section {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
 
 

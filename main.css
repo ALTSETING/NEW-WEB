@@ -1680,4 +1680,36 @@ section.blockchain {
   }
 }
 
+/* =========================================
+   📱 HERO TEXT ALIGN FIX — MOBILE
+========================================= */
+@media (max-width: 768px) {
+
+  .hero-title {
+    width: 100% !important;
+    max-width: 100%;
+    margin: 32px auto !important;
+    padding: 0 16px;
+
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.35;
+
+    /* головне */
+    margin-left: 0 !important;
+    transform: none !important;
+    box-sizing: border-box;
+    word-break: normal;
+    overflow-wrap: break-word;
+    text-wrap: balance;
+  }
+
+  /* лінія під текстом — по центру */
+  .hero-title::after {
+    width: 70% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 

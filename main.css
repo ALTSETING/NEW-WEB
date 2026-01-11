@@ -1346,3 +1346,43 @@ section.blockchain {
   }
 }
 
+
+.whitepaper-link {
+  padding: 10px 22px;
+  border-radius: 14px;
+  border: 1px solid rgba(125, 231, 255, 0.45);
+  color: #7de7ff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  background: rgba(125, 231, 255, 0.06);
+  backdrop-filter: blur(6px);
+  transition: all 0.25s ease;
+  margin-left: 18px;
+  margin-bottom: 150px;
+}
+
+.whitepaper-link:hover {
+  background: rgba(125, 231, 255, 0.14);
+  box-shadow: 0 0 14px rgba(125, 231, 255, 0.35);
+  transform: translateY(-1px);
+}
+.krapka {
+    color: #00000000;
+    margin-top: 100px;
+}
+
+.Docs-text {
+    
+    margin-left: 450px;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    opacity: 0.85;
+    color: #8fa3b8;
+}
+
+
+
+
+

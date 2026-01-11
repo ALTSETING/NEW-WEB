@@ -1392,5 +1392,237 @@ section.blockchain {
 
 
 
+/* =====================================================
+    MOBILE OPTIMIZATION — ALTSETING
+===================================================== */
+@media (max-width: 768px) {
+
+  /* === GLOBAL RESET === */
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* === HEADER === */
+  .top {
+    height: auto;
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .top-left {
+    justify-content: center;
+  }
+
+  .logo {
+    width: 64px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .top-nav {
+    margin: 12px 0 0 0;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  /* === HERO / TITLE === */
+  .hero-title {
+    width: auto;
+    margin: 40px 16px;
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .hero-title::after {
+    width: 80%;
+  }
+
+  /* === SCHEME CENTER === */
+  .scheme-wrap {
+    aspect-ratio: auto;
+    height: auto;
+  }
+
+  .scheme-center {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin-top: 40px;
+  }
+
+  /* === COVER / GOALS === */
+  .cover {
+    width: 100%;
+    margin-top: 80px;
+    padding: 0 16px;
+    flex-direction: column;
+  }
+
+  .cover h2 {
+    margin: 0 0 24px 0;
+    width: auto;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .cover ul {
+    margin: 0;
+  }
+
+  .cover li {
+    font-size: 16px;
+    margin-right: 0;
+  }
+
+  /* === PARTNER CTA === */
+  .partner-cta {
+    padding: 80px 16px;
+  }
+
+  .partner-cta-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .partner-cta-text h2 {
+    font-size: 32px;
+  }
+
+  .Become-text {
+    font-size: 22px;
+  }
+
+  /* === RABBIT / ACADEMY === */
+  .hero-section {
+    flex-direction: column;
+    padding: 60px 16px;
+    margin-bottom: 80px;
+  }
+
+  .hero-left {
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 28px;
+  }
+
+  .hero-left p {
+    font-size: 16px;
+  }
+
+  .hero-card {
+    margin: 40px auto 0;
+  }
+
+  /* === WALLET === */
+  .wallet-section {
+    padding: 0 16px;
+  }
+
+  .wallet-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wallet-text h1 {
+    font-size: 32px;
+  }
+
+  .wallet-btn {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* === MINER BOT === */
+  .miner-bot {
+    flex-direction: column;
+    margin: 0;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .soon {
+    width: auto;
+    font-size: 32px;
+  }
+
+  .info-miner {
+    width: auto;
+    font-size: 16px;
+  }
+
+  .miner-image img {
+    margin: 40px auto 0;
+    max-width: 280px;
+  }
+
+  .name-miner {
+    text-align: center;
+  }
+
+  /* === BLOCKCHAIN === */
+  .blockchain {
+    flex-direction: column;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .T-blockchain {
+    width: auto;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .chain-image img {
+    max-width: 300px;
+    margin: 40px auto 0;
+  }
+
+  /* === NFT === */
+  .gallery {
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 60px;
+  }
+
+  .gallery .card {
+    width: 90%;
+    height: auto;
+  }
+
+  /* === SOCIALS === */
+  .socials-bar {
+    flex-direction: column;
+    margin: 40px 0;
+    padding: 0 16px;
+    gap: 12px;
+  }
+
+  .Docs-text {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+
 
 

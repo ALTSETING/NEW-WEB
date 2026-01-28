@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALTSETING Token - ($ALTST)</title>
     <link rel="stylesheet" href="main.css">
+
+<script>
+    (function () {
+    // якщо вже на mobile.html — нічого не робимо
+        if (location.pathname.endsWith("m/mobile.html")) return;
+
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+        if (isMobile) location.replace("m/mobile.html");
+    })();
+</script>
+
     <!-- ================= ALTSETING SEO / AVATAR / PREVIEW ================= -->
 
 <!-- BASIC -->

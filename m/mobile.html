@@ -328,15 +328,21 @@ Early NFT value: limited supply and priority access to future project opportunit
 
 <div class="mobile-divider"></div>
 
+
 <script>
-  const burger = document.getElementById("burger");
-  const menu = document.getElementById("mobileNav");
+const burger = document.getElementById("burger");
+const mobileNav = document.getElementById("mobileNav");
 
-  burger.addEventListener("click", () => {
-    menu.classList.toggle("active");
+burger.addEventListener("click", () => {
+  mobileNav.classList.toggle("active");
+});
+
+mobileNav.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    mobileNav.classList.remove("active");
   });
+});
 </script>
-
 
 
 </body>

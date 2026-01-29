@@ -35,6 +35,7 @@ body {
   font-weight: 700;
   color: #FFB86B;
   letter-spacing: 0.05em;
+  padding: 3px;
 
   display: inline-block;   /* КЛЮЧ */
   position: relative;      /* КЛЮЧ */
@@ -42,9 +43,10 @@ body {
   margin: 0;               /* прибрати все зайве */
 }
 .logo {
-  width: 42px;
+  width: 34px;
   height: 38;
   object-fit: contain;
+  margin-left: 6px;
 }
 
 
